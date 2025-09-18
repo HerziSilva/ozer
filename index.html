@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ajuda com TI</title>
+    <meta name="description" content="Landing Page Herzi Silva, Gestão e Consultorias em Tecnologia da Informação.">
+    <meta name="keywords" content="Herzi Silva">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/favicon.png" rel="apple-touch-icon">
+    
+    <!-- Main CSS File -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
+
+    
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+
+        <!--  Icone -->
+        <a class="navbar-brand" href="#">
+          <div class="logo-container-navbar">
+              <div class="logo-icon-navbar">
+                  <div class="box"></div>
+                  <span class="h-letter">Hz</span>
+              </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button><!--  Final Icone -->
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#resumo">Resumo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiência</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificacoes">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#educacao">Formação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="carousel-section" id="home">
+        <div class="container-fluid p-0">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-item-content text-white" style="background: linear-gradient(135deg, #0D1B2A 0%, #1D7A8F 100%);">
+                            <h3 class="fw-bold mb-3">Soluções em Tecnologia</h3>
+                            <p class="lead">Transformando desafios em resultados através da inovação e gestão de TI.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item-content text-white" style="background-color: #1D7A8F;">
+                            <h3 class="fw-bold mb-3">Gestão de TI</h3>
+                            <p class="lead">Liderança, gestão de projetos e equipes de alta performance.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item-content text-dark" style="background-color: #E0E1DD;">
+                            <h3 class="fw-bold mb-3">Análise de Dados com Power BI</h3>
+                            <p class="lead">Transformando dados em insights valiosos para o seu negócio.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="custom-carousel-icon"><i class="fas fa-chevron-left"></i></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="custom-carousel-icon"><i class="fas fa-chevron-right"></i></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+      </section>
+
+      <section id="resumo" class="py-5">
+        <div class="container text-center">
+          <h2 class="section-heading">Resumo</h2>
+          <div class="row align-items-center">
+            <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
+              <div class="profile-photo-container">
+                <img id="herzi-photo-1" class="profile-photo active" src="img/user/hss1.png" alt="Foto de Herzi Silva 1">
+                <img id="herzi-photo-2" class="profile-photo" src="img/user/hss2.png" alt="Foto de Herzi Silva 2">
+                <img id="herzi-photo-3" class="profile-photo" src="img/user/hss3.png" alt="Foto de Herzi Silva 3">
+              </div>
+              <h4 class="fw-bold">Herzi Silva</h4>
+              <p class="text-muted text-center">Especialista em Tecnologia da Informação com foco em Gestão e Análise de Dados.</p>
+            </div>
+            <div class="col-md-8">
+              <div class="accordion" id="accordionSummary">
+                
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingLideranca">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLideranca" aria-expanded="false" aria-controls="collapseLideranca">
+                      <i class="fas fa-handshake text-secondary me-2"></i> Liderança e Gestão de Equipe
+                    </button>
+                  </h2>
+                  <div id="collapseLideranca" class="accordion-collapse collapse" aria-labelledby="headingLideranca" data-bs-parent="#accordionSummary">
+                    <div class="accordion-body">
+                      <p style="text-align: justify;">Liderança e gestão de equipe interdisciplinar relativos à Tecnologia da Informação, com conhecimento em diversas áreas nos segmentos da Tecnologia da Informação.<br>
+                                                      Aplicação de treinamentos focado no desenvolvimento de equipe interdisciplinar para melhor aproveitamento da tecnologia.
+                                                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-item mt-3">
+                  <h2 class="accordion-header" id="headingBI">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBI" aria-expanded="false" aria-controls="collapseBI">
+                      <i class="fas fa-chart-line text-secondary me-2"></i> Business Intelligence e Análise de Dados
+                    </button>
+                  </h2>
+                  <div id="collapseBI" class="accordion-collapse collapse" aria-labelledby="headingBI" data-bs-parent="#accordionSummary">
+                    <div class="accordion-body">
+                      <p style="text-align: justify;">Conhecimento e desenvolvimento de business intelligence com Microsoft Power BI, linguagem M e DAX.<br>
+                                                      Analista de Dados com vivência implantação e migração de sistemas para redução de custos em TI e melhor escolha de recursos com otimização de processos e gestão de TI com uso de frameworks ITIL e/ou COBIT.
+                                                      </p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item mt-3">
+                  <h2 class="accordion-header" id="headingOtimizacao">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtimizacao" aria-expanded="false" aria-aria-controls="collapseOtimizacao">
+                      <i class="fas fa-cogs text-secondary me-2"></i> Otimização de Processos e Gestão
+                    </button>
+                  </h2>
+                  <div id="collapseOtimizacao" class="accordion-collapse collapse" aria-labelledby="headingOtimizacao" data-bs-parent="#accordionSummary">
+                    <div class="accordion-body">
+                      <p style="text-align: justify;">Experiência em otimização de processos, atualizações de processos e implantação de sistemas ERP, gestão de TI com ITIL e/ou COBIT.<br>
+                                                      Implantação e acompanhamento dos processos da qualidade</p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="accordion-item mt-3">
+                  <h2 class="accordion-header" id="headingExperiencia">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperiencia" aria-expanded="false" aria-controls="collapseExperiencia">
+                      <i class="fas fa-star text-secondary me-2"></i> Experiência Sólida
+                    </button>
+                  </h2>
+                  <div id="collapseExperiencia" class="accordion-collapse collapse" aria-labelledby="headingExperiencia" data-bs-parent="#accordionSummary">
+                    <div class="accordion-body">
+                      <p style="text-align: justify;">20 anos de experiência em TI na gestão e suporte técnico, redes, infraestrutura, gestão de servidores, Print Server, cloud computing, Office, Google, VM, AD, DHCP, IIS, GPO, TCP/IP, Firewall, HTML, CSS, Delphi/Pascal, Bitdefender/kaspersky, Zabbix, PRTG, Voip, SAS, Mikrotik, WiFi e Backup.</p>
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center section-heading">Experiência</h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#hzConsultoriaModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Consultoria de T.I</h5>
+                  <p class="card-subtitle mb-2 text-muted">Consultoria em TI</p>
+                  <p class="card-text text-muted"><small>Atualmente</small></p>
+                  <p class="card-text">Brasil</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#solimModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Solim Laboratórios</h5>
+                  <p class="card-subtitle mb-2 text-muted">Analista de T.I</p>
+                  <p class="card-text text-muted"><small>Dezembro de 2024 - Atualmente</small></p>
+                  <p class="card-text">Aracaju, Sergipe, Brasil</p>
+                </div>
+              </div>
+            </div>            
+            
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#dmzModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">DMZ</h5>
+                  <p class="card-subtitle mb-2 text-muted">Gerente de T.I</p>
+                  <p class="card-text text-muted"><small>Junho de 2022 - Maio de 2023</small></p>
+                  <p class="card-text">Salvador, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#clabModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Laboratórios CLAB</h5>
+                  <p class="card-subtitle mb-2 text-muted">Analista de T.I</p>
+                  <p class="card-text text-muted"><small>Maio de 2019 - Junho de 2022</small></p>
+                  <p class="card-text">Salvador, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#totvsModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">TOTVS SA</h5>
+                  <p class="card-subtitle mb-2 text-muted">Analista Consultor de software</p>
+                  <p class="card-text text-muted"><small>Setembro de 2018 - Maio de 2019</small></p>
+                  <p class="card-text">Salvador, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#mahaloModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Grupo Pereira - Mahalo</h5>
+                  <p class="card-subtitle mb-2 text-muted">Técnico de T.I</p>
+                  <p class="card-text text-muted"><small>Março de 2015 - Março de 2018</small></p>
+                  <p class="card-text">Salvador, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card h-100 experience-card-clickable" data-bs-toggle="modal" data-bs-target="#bomixModal">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Bomix Ind. Embalagens Ltda.</h5>
+                  <p class="card-subtitle mb-2 text-muted">Assistente de T.I</p>
+                  <p class="card-text text-muted"><small>Fevereiro de 2005 - 2013</small></p>
+                  <p class="card-text">Salvador, Bahia, Brasil</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="py-5">
+        <div class="container">
+          <h2 class="text-center section-heading">Habilidades</h2>
+          <div class="card p-4">
+            <div class="card-body">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <h5 class="card-title fw-bold mb-3"><i class="fas fa-chart-line text-secondary me-2"></i> Principais Habilidades</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#admModal"><i class="fas fa-cogs text-secondary me-2"></i> Administração</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#gestaoProjetosModal"><i class="fas fa-project-diagram text-secondary me-2"></i> Gestão de projetos</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#liderancaModal"><i class="fas fa-users text-secondary me-2"></i> Liderança</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#biModal"><i class="fas fa-chart-pie text-secondary me-2"></i> Business Intelligence com Microsoft Power BI</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#gestaoTiModal"><i class="fas fa-clipboard-list text-secondary me-2"></i> Gestão de TI com ITIL e/ou COBIT</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#inglesModal"><i class="fas fa-language text-secondary me-2"></i> Inglês - leitura Intermediário / Conversação Básico</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h5 class="card-title fw-bold mb-3"><i class="fas fa-laptop-code text-secondary me-2"></i> Conhecimentos Técnicos</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#infraModal"><i class="fas fa-network-wired text-secondary me-2"></i> Redes, infraestrutura, gestão de servidores (AD, DHCP, GPO, IIS)</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#cloudModal"><i class="fas fa-cloud text-secondary me-2"></i> Cloud computing, ERP, VM, Print Server, Firewall</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#ferramentasModal"><i class="fas fa-server text-secondary me-2"></i> Zabbix, PRTG, Voip, SAS, Mikrotik</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#linguagensModal"><i class="fas fa-code text-secondary me-2"></i> Linguagens: HTML, CSS, SQL, Delphi/Pascal, Java, C++</li>
+                    <li class="list-group-item skill-item-clickable" data-bs-toggle="modal" data-bs-target="#sistemasModal"><i class="fas fa-briefcase text-secondary me-2"></i> Sistemas: Microsoft Office / Google Docs, Bitdefender/kaspersky</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  CURSOS - MENU FECHADO - ABRIR CERTIFICADOS  -->
+      <section id="certificacoes" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center section-heading">Cursos</h2>
+          <div class="card p-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#gestaoProjetosCertModal"><i class="fas fa-award text-secondary me-2"></i> Gestão de Projetos</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#inovacaoCertModal"><i class="fas fa-award text-secondary me-2"></i> O Impacto da Inovação Tecnológica na Gestão das Organizações</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#powerBICertModal"><i class="fas fa-award text-secondary me-2"></i> Microsoft Power BI - Do Básico ao Avançado.</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#powerBIAdvanceCertModal"><i class="fas fa-award text-secondary me-2"></i> Microsoft Power BI</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#admCertModal"><i class="fas fa-award text-secondary me-2"></i> Encontro Brasileiro de Administração</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#inteligCertModal"><i class="fas fa-award text-secondary me-2"></i> Inteligência Profissional</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#iaCertModal"><i class="fas fa-award text-secondary me-2"></i> Inteligência Artificial</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#lgpdCertModal"><i class="fas fa-award text-secondary me-2"></i> LGPD</li>
+              <li class="list-group-item certificate-item-clickable" data-bs-toggle="modal" data-bs-target="#custoCertModal"><i class="fas fa-award text-secondary me-2"></i> Gestão de Custos</li>                                                      
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="educacao" class="py-5">
+        <div class="container">
+          <h2 class="text-center section-heading">Formação</h2>
+          <div class="card p-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fas fa-graduation-cap text-secondary me-2"></i> <strong>Unijorge</strong>
+                <br>Gestão em Tecnologia da Informação, Administração e Gerenciamento da Tecnologia da Informação (2019 - 2021)
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-graduation-cap text-secondary me-2"></i> <strong>Facon</strong>
+                <br>Data Analytics com Enfase em Microsoft Power BI, Análise de Sistemas de Computação (Julho de 2021 - Julho de 2022)
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-graduation-cap text-secondary me-2"></i> <strong>Uninassau</strong>
+                <br>Pós-Graduando em Docencia do Ensino Superior (Finalizando)
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-graduation-cap text-secondary me-2"></i> <strong>Fatipi</strong>
+                <br>Bacharelando em Teologia pela Faculdade de Teologia de São Paulo da Igreja Presbiteriana Independente do Brasil (Cursando)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="py-5 bg-light">
+        <div class="container text-center">
+          <h2 class="text-center section-heading">Contato</h2>
+          <div class="d-flex flex-wrap justify-content-center gap-4">
+            <a href="#" class="contact-link contact-item-font fw-bold" id="showPhoneBtn" data-bs-toggle="modal" data-bs-target="#captchaModal" data-target-id="phoneNumberSpan" data-target-btn="showPhoneBtn">
+              <i class="fas fa-phone-alt me-2"></i>Clique para ver o celular
+            </a>
+            <span id="phoneNumberSpan" style="display: none;">
+              <a href="tel:+5571999183166" class="contact-link contact-item-font fw-bold">
+                <i class="fas fa-phone-alt me-2"></i>+55 71 99918-3166
+              </a>
+            </span>
+
+            <a href="#" class="contact-link contact-item-font fw-bold" id="showEmailBtn" data-bs-toggle="modal" data-bs-target="#captchaModal" data-target-id="emailAddressSpan" data-target-btn="showEmailBtn">
+              <i class="fas fa-envelope me-2"></i>Clique para ver o e-mail
+            </a>
+            <span id="emailAddressSpan" style="display: none;">
+              <a href="mailto:herzi.silva@outlook.com" class="contact-link contact-item-font fw-bold">
+                <i class="fas fa-envelope me-2"></i>herzi.silva@outlook.com
+              </a>
+            </span>
+
+            <a href="https://www.linkedin.com/in/herzi-silva" target="_blank" class="contact-link contact-item-font fw-bold">
+              <i class="fab fa-linkedin me-2"></i>LinkedIn
+            </a>
+
+            <a href="https://herzisilva.github.io/ozer/" target="_blank" class="contact-link contact-item-font fw-bold">
+              <i class="fas fa-globe me-2"></i>Portfólio
+            </a>
+
+            <a href="https://github.com/herzisilva" target="_blank" class="contact-link contact-item-font fw-bold">
+              <i class="fab fa-github me-2"></i>GitHub
+            </a>
+          </div>
+        </div>
+
+<section id="contato-form" class="py-5">
+  <div class="container">
+    <h2 class="text-center section-heading">Detalhado em PDF</h2>
+            <a href="pdf/curriculum_vitae_herzisilva.pdf" target="_blank" class="contact-link contact-item-font fw-bold">
+              <div class="text-center">Currículum Vitae</div>
+            </a>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <!--<form id="contactForm" class="contact-form" method="POST" action="php/processa_form.php">
+          <div class="mb-3">
+            <label for="nameInput" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nameInput" name="nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Endereço de E-mail</label>
+            <input type="email" class="form-control" id="emailInput" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="messageInput" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="messageInput" name="mensagem" rows="5" required></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+          </div>
+        </form>-->
+      </div>
+    </div>
+  </div>
+</section>
+      
+    </main>
+
+    <a href="#" id="back-to-top" class="d-flex justify-content-center align-items-center">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div class="modal fade" id="submissionSuccessModal" tabindex="-1" aria-labelledby="submissionSuccessModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title text-success" id="submissionSuccessModalLabel">Mensagem Enviada!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Obrigado por entrar em contato! Sua mensagem foi enviada com sucesso.</p>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hzConsultoriaModal" tabindex="-1" aria-labelledby="hzConsultoriaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hzConsultoriaModalLabel">Consultoria em Tecnologia da Informação</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Consultor privado</p>
+            <p><strong>Período:</strong> Atualmente</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Otimização de processos.</li>
+              <li>Análise de custos e migração de sistemas ERP.</li>
+              <li>Gestão de TI.</li>
+              <li>Comunicação Visua.</li>
+              <li>Criação de Interface Web.</li>
+              <li>Geração, análise e acompanhamento de indicadores de TI.</li>
+              <li>Análise e avaliação dos contratos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="solimModal" tabindex="-1" aria-labelledby="solimModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="solimModalLabel">Solim Laboratórios</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Gerente de Tecnologia da Informação</p>
+            <p><strong>Período:</strong> Dezembro de 2024 - Atualmente</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Responsável técnico e administrativo de TI.</li>
+              <li>Análise e avaliação dos contratos dos terceirizados de infraestrutura, internet, impressoras, telefonia e sistema de segurança.</li>
+              <li>Treinamentos internos de softwares e integração e processos informatizados.</li>
+              <li>Help Desk N1 - N2 - N3 (sistemas e rede).</li>
+              <li>Implantação e implementação de ambiente em nuvem.</li>
+              <li>Integração entre sistemas ERP e terceiros.</li>
+              <li>Geração, análise e acompanhamento de indicadores de TI.</li>
+              <li>Gestor de sistema laboratorial - Smart - Pathoweb - Medlynx</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="dmzModal" tabindex="-1" aria-labelledby="dmzModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="solimModalLabel">DMZ Administradora</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Gerente de Tecnologia da Informação</p>
+            <p><strong>Período:</strong> Junho de 2022 - Julho de 2023</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Responsável técnico pelo setor de TI.</li>
+              <li>Implantação, desenvolvimento e acompanhamento dos procedimentos e dos sistemas Linx POS, Linx Microvix, Totvs Virtual Age.</li>
+              <li>Gerenciamento de sistemas e processos para lojas Dinni, Dzum, Loungerie, Democrata e Reserva.</li>
+              <li>Análise e avaliação dos contratos de infraestrutura, internet, telefonia e sistema de segurança, sistemas e periféricos como impressoras.</li>
+              <li>Treinamentos internos de softwares e integração e processos informatizados.</li>
+              <li>Help Desk N1 - N2 - N3.</li>
+              <li>Geração, análise e acompanhamento de indicadores de TI.</li>
+              <li>Administração do ambiente Server (DB/AD/File Server/VM/IIS/DB).</li>
+              <li>Administração de rede e firewall Mikrotik.</li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="modal fade" id="clabModal" tabindex="-1" aria-labelledby="clabModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="clabModalLabel">Laboratórios CLAB</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Analista de TI</p>
+            <p><strong>Período:</strong> Maio de 2019 - Junho de 2022</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Responsável técnico e administrativo de TI.</li>
+            <li>Implantação, desenvolvimento e acompanhamento dos procedimentos e da qualidade - Certificação DICQ / ISO.</li>
+            <li>Análise e avaliação dos contratos de infraestrutura, internet, telefonia e sistema de segurança e impressoras.</li>
+            <li>Treinamentos internos de softwares e integração e processos informatizados.</li>
+            <li>Help Desk N1 - N2 - N3.</li>
+            <li>Implantação e implementação de ambiente em nuvem.</li>
+            <li>Geração, análise e acompanhamento de indicadores de TI.</li>
+            <li>Seleção e recrutamento para o setor de TI.</li>
+            <li>Business Analytics com uso do Power BI.</li>
+            <li>Administração do ambiente Cloud Server (DB/AD/File Server/VM/IIS).</li>
+            <li>Administração de rede com (AD, Print Server, GPO, DHCP, SQL).</li>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="totvsModal" tabindex="-1" aria-labelledby="totvsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="totvsModalLabel">TOTVS SA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Analista Consultor de Software</p>
+            <p><strong>Período:</strong> Setembro de 2018 - Maio de 2019</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Implantação de ERP.</li>
+              <li>Treinamento e suporte de sistema.</li>
+              <li>Suporte SQL</li>
+              <li>Processos de integração ao Banco de Dados.</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="mahaloModal" tabindex="-1" aria-labelledby="mahaloModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mahaloModalLabel">Grupo Pereira - Mahalo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Técnico de Tecnologia da Informação</p>
+            <p><strong>Período:</strong> Março de 2015 - Março de 2018</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Treinamentos internos e suporte a sistemas.</li>
+              <li>Gestão de rede e servidores (AD/GPO/DHCP/File Server).</li>
+              <li>Gerenciamento de serviços IIS e processos de qualidade.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="bomixModal" tabindex="-1" aria-labelledby="bomixModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bomixModalLabel">Bomix Ind. Embalagens Ltda.</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Cargo:</strong> Assistente de Tecnologia da Informação</p>
+            <p><strong>Período:</strong> Fevereiro de 2005 - 2013</p>
+            <p><strong>Responsabilidades:</strong></p>
+            <ul>
+              <li>Desenvolvimento de software.</li>
+              <li>Criação e gerenciamento de processos de TI.</li>
+              <li>Acompanhamento do sistema de qualidade ISO 9001:2008.</li>
+              <li>Suporte ao ERP.</li>
+              <li>Manutenção de Hardwares.</li>
+              <li>Gerenciamento de Servidores Locais (AD/GPO/DHCP/DNS).</li>
+              <li>Treinamentos internos de softwares e integração e processos informatizados.</li>
+              <li>Gerenciamento de rede TCP/IP.</li>
+              <li>Seleção e recrutamento para setor de TI.</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="admModal" tabindex="-1" aria-labelledby="admModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="admModalLabel">Administração</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Gerenciamento de recursos e processos para atingir objetivos de forma eficiente e sustentável.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="gestaoProjetosModal" tabindex="-1" aria-labelledby="gestaoProjetosModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gestaoProjetosModalLabel">Gestão de Projetos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Planejamento, execução e controle de projetos para entrega no prazo e dentro do orçamento, garantindo a qualidade final.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="liderancaModal" tabindex="-1" aria-labelledby="liderancaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="liderancaModalLabel">Liderança</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Habilidade de motivar, inspirar e guiar equipes para alcançar um objetivo comum, fomentando um ambiente de colaboração.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="biModal" tabindex="-1" aria-labelledby="biModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="biModalLabel">Business Intelligence</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Utilização de ferramentas e técnicas para transformar dados brutos em informações úteis e acionáveis para o negócio, apoiando a tomada de decisões estratégicas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="gestaoTiModal" tabindex="-1" aria-labelledby="gestaoTiModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gestaoTiModalLabel">Gestão de TI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Aplicação de frameworks de melhores práticas como ITIL e COBIT para garantir que a tecnologia esteja alinhada com as necessidades do negócio, otimizando processos e a entrega de serviços.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="inglesModal" tabindex="-1" aria-labelledby="inglesModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="inglesModalLabel">Inglês</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Pouca fluência em inglês, com capacidade de leitura e compreensão de materiais técnicos, essencial para o mercado global e atualizações tecnológicas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="infraModal" tabindex="-1" aria-labelledby="infraModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infraModalLabel">Redes e Infraestrutura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Conhecimento técnico para projetar, construir e manter sistemas de TI robustos e seguros, garantindo a disponibilidade e o desempenho da infraestrutura.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="cloudModal" tabindex="-1" aria-labelledby="cloudModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cloudModalLabel">Cloud Computing</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Habilidades com tecnologias de nuvem, máquinas virtuais (VMs), gerenciamento de impressão e segurança de rede através de Firewalls para otimização de recursos e segurança.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="ferramentasModal" tabindex="-1" aria-labelledby="ferramentasModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ferramentasModalLabel">Ferramentas de TI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Proficiência no uso de ferramentas específicas para monitoramento de sistemas (Zabbix, PRTG), comunicação (VoIP), análise de dados (SAS) e roteamento de redes (Mikrotik).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="linguagensModal" tabindex="-1" aria-labelledby="linguagensModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="linguagensModalLabel">Linguagens</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Conhecimento em linguagens de programação e de banco de dados, como HTML, CSS, SQL, Delphi/Pascal, Java e C++, essenciais para o desenvolvimento e manutenção de sistemas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="sistemasModal" tabindex="-1" aria-labelledby="sistemasModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sistemasModalLabel">Sistemas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Proficiência no uso de ferramentas de produtividade como Microsoft Office e Google Docs, e de segurança como Bitdefender e Kaspersky, fundamentais para o ambiente de trabalho.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  SPLASH CERTIFICADOS -->
+    <div class="modal fade" id="gestaoProjetosCertModal" tabindex="-1" aria-labelledby="gestaoProjetosCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="gestaoProjetosCertModalLabel">Certificado: Gestão de Projetos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/gestao_projetos_2021.png" class="certificate-image" alt="Imagem do certificado de Gestão de Projetos.">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="inovacaoCertModal" tabindex="-1" aria-labelledby="inovacaoCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="inovacaoCertModalLabel">Certificado: O Impacto da Inovação Tecnológica</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/impacto_tec_2021.png" class="certificate-image" alt="Imagem do certificado sobre Inovação Tecnológica.">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="powerBICertModal" tabindex="-1" aria-labelledby="powerBICertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="powerBICertModalLabel">Certificado: Microsoft Power BI - Do Básico ao Avançado</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/pbi_1_2021.png" class="certificate-image" alt="Imagem do certificado de Microsoft Power BI.">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="powerBIAdvanceCertModal" tabindex="-1" aria-labelledby="powerBIAdvanceCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="powerBIAdvanceCertModalLabel">Certificado: Microsoft Power BI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/pbi2_2021.png" class="certificate-image" alt="Imagem do certificado avançado de Microsoft Power BI.">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="admCertModal" tabindex="-1" aria-labelledby="admCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="admCertModalLabel">Certificado: Encontro Brasileiro de Administração</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/adm_2021.png" class="certificate-image" alt="Imagem do certificado de Encontro Brasileiro de Administração.">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="inteligCertModal" tabindex="-1" aria-labelledby="admCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="admCertModalLabel">Certificado: Jornada da Inteligencia Profissional</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2023.</p>
+            <img src="img/cursos/intelg_profi_2023.png" class="certificate-image" alt="Imagem do certificado de Encontro Brasileiro de Administração.">
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="modal fade" id="iaCertModal" tabindex="-1" aria-labelledby="admCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CertModalLabel">Certificado: Inteligência Artificial</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/intelig_artif_2021.png" class="certificate-image" alt="Imagem do certificado de Encontro Brasileiro de Administração.">
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="lgpdCertModal" tabindex="-1" aria-labelledby="admCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CertModalLabel">Certificado: LGPD</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2021.</p>
+            <img src="img/cursos/lgpd_2_2021.png" class="certificate-image" alt="Imagem do certificado de Encontro Brasileiro de Administração.">
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="custoCertModal" tabindex="-1" aria-labelledby="admCertModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CertModalLabel">Certificado: Gestão de Custos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Ano 2022.</p>
+            <img src="img/cursos/gestao_custo_2022.png" class="certificate-image" alt="Imagem do certificado de Encontro Brasileiro de Administração.">
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <!--  VERIFICAÇÃO HUMANA PARA VER EMAIL E TELEFONE  -->
+    <div class="modal fade" id="captchaModal" tabindex="-1" aria-labelledby="captchaModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header">
+            <h5 class="modal-title" id="captchaModalLabel">Verificação Humana</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-3">Por favor, resolva a equação para provar que você não é um robô.</p>
+            <div class="d-flex justify-content-center align-items-center mb-3">
+              <span id="captchaQuestion" class="h4 me-3"></span>
+              <input type="text" id="captchaAnswer" class="form-control w-25">
+            </div>
+            <div id="captchaFeedback" class="text-danger"></div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" id="verifyCaptchaBtn">Verificar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer class="text-white text-center py-4 mt-auto">
+      <div class="container">
+        <p class="mb-0">&copy; 2024 Portfólio. Todos os direitos reservados - | - V.01.16.09.2025</p>
+      </div>
+    </footer>
+
+    <!-- JS Delivery-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Formulário JS -->
+    <script src="js/formulario.js"></script>
+
+    <!-- Fotos JS -->
+    <script src="js/fotos.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
